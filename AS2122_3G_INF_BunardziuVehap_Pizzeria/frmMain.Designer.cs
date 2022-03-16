@@ -68,6 +68,10 @@
             // CBX_Scelta
             // 
             this.CBX_Scelta.FormattingEnabled = true;
+            this.CBX_Scelta.Items.AddRange(new object[] {
+            "Margherita",
+            "Verdure",
+            "4 Stagioni"});
             this.CBX_Scelta.Location = new System.Drawing.Point(105, 55);
             this.CBX_Scelta.Name = "CBX_Scelta";
             this.CBX_Scelta.Size = new System.Drawing.Size(121, 23);
