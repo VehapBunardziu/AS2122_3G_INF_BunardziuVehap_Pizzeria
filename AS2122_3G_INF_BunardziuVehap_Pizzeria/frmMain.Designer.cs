@@ -145,7 +145,7 @@
             this.Controls.Add(this.LBL_Quantità);
             this.Controls.Add(this.LBL_TipoPizza);
             this.Name = "frmMain";
-            this.Text = "Form1";
+            this.Text = "AS2122_3G_INF_BunardziuVehap_Pizzeria";
             this.ResumeLayout(false);
             this.PerformLayout();
 
