@@ -2,6 +2,10 @@ namespace AS2122_3G_INF_BunardziuVehap_Pizzeria
 {
     public partial class frmMain : Form
     {
+        int nMargherite = 0;
+        int nVerdure = 0;
+        int n4Stagioni = 0;
+
         public frmMain()
         {
             InitializeComponent();
@@ -9,13 +13,13 @@ namespace AS2122_3G_INF_BunardziuVehap_Pizzeria
 
         private void BTN_Aggiungi_Click(object sender, EventArgs e)
         {
-            string SeltaPizza;
+            string SceltaPizza;
             int nMargherite = 0;
             int nVerdure = 0;
             int n4Stagioni = 0;
             if (TXT_Quantità.Text != "")
             {
-                SeltaPizza = CBX_Scelta.Text;
+                SceltaPizza = CBX_Scelta.Text;
                 switch (CBX_Scelta.Text)
                 {
                     case "Margherita":
